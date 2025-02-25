@@ -2,9 +2,9 @@
 const Title=document.querySelector("#title");
 const Author=document.querySelector("#author");
 const Isbn=document.querySelector("#isbn");
-const submitButton=document.querySelector("#button");
+const submitButton=document.querySelector("#submit");
 
-const tableData=document.querySelector(".table");
+const tableData=document.querySelector("#book-list");
 submitButton.addEventListener('click',(e)=>{
 	e.preventDefault();
 
