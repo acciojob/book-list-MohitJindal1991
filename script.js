@@ -9,12 +9,12 @@ submitButton.addEventListener('click',(e)=>{
 	e.preventDefault();
 
 	const newRow=document.createElement('tr');
-	newRow.innerHTML=`<tr>
+	newRow.innerHTML=`
 <td>${Title.value}</td>
 <td>${Author.value}</td>
 <td>${Isbn.value}</td>
 <td class="delete">❌</td>
-</tr>`
+`
 	tableData.append(newRow)
 	Title.value="";
 	Author.value="";
