@@ -15,7 +15,7 @@ submitButton.addEventListener('click',(e)=>{
 <td>${Isbn.value}</td>
 <td class="delete">❌</td>
 `
-	tableData.append(newRow)
+	tableData.appendChild(newRow)
 	Title.value="";
 	Author.value="";
 	Isbn.value="";
